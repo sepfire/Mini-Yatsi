@@ -6,7 +6,7 @@ export default Header = () => {
     return (
         <View style={styles.header}>
             <Text style={styles.author}>
-                Author: Timo Hyttinen
+                Author: Matti Pitkänen
             </Text>
         </View>
     )

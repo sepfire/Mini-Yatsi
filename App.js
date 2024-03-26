@@ -1,6 +1,6 @@
 import Styles from './styles/style.js';
 import Home from "./components/Home.js";
-import Gameboard from "./components/Gameboard.js";
+import Gameboard from "./components/Gameboard";
 import Scoreboard from "./components/Scoreboard.js";
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';

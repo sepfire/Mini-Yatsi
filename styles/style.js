@@ -10,6 +10,7 @@ export default StyleSheet.create({
     marginBottom: 15,
     backgroundColor: 'skyblue',
     flexDirection: 'row',
+    borderRadius: 15
   },
   footer: {
     marginTop: 20,
@@ -64,5 +65,33 @@ export default StyleSheet.create({
   buttonText: {
     color:"#2B2B52",
     fontSize: 20
+  },
+  play: {
+    backgroundColor: "#73CED6",
+    borderRadius: 15,
+    textAlign: "center",
+    fontSize: 20,
+    padding: 10,
+    
+  },
+  input: {
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 15,
+    width: 200,
+    textAlign: "center",
+    alignSelf: "center"
+  },
+  throw:{
+    padding: 10,
+    margin: 10,
+    backgroundColor: "#73CED6",
+    width: 150,
+    borderRadius: 15,
+    textAlign: 'center',
+    alignContent: 'center',
+    alignSelf: 'center'
   }
 });
